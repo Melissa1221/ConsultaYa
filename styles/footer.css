@@ -23,8 +23,21 @@ footer .container .contacto{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
     justify-content: center;
+}
+footer .container .siguenos .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:left;
+}
+footer .container .siguenos .icons .icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    width: 100%;
+    gap: 1rem;
 }
 .container .siguenos{
     display: flex;
@@ -41,3 +54,5 @@ footer .container .contacto{
     text-align: left;
     justify-content: center;
 }
+
+
