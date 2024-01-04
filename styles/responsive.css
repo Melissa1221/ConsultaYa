@@ -32,24 +32,38 @@
    
     
     .beneficios .container-fluid .box .box-text{
-        width: 100%;
-        height: 100%;
+        
+        
+    }
+    .beneficios .container-fluid .box{
+        
+    }
+    .beneficios .container-fluid .box .box-button{
+        justify-content: center;
+        display: flex;
+        margin: 1rem;
+        
     }
    
-    .beneficios .container-fluid h1{
-        color: #1363A2;
-        font-size: 1.5rem;
+    .beneficios .container-fluid .titulo{
+        
+
 
     }
+    
     .beneficios .container-fluid .box{
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: start;
+        justify-content: center;
 
     }
     .beneficios .container-fluid .box p{
         padding: 1rem;
+    }
+    .beneficios .container-fluid .box .box-text{
+        width: 100%;
+        margin-bottom: 0;
     }
 
     .beneficios .container-fluid .row .col{
