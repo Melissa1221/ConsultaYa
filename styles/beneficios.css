@@ -1,0 +1,68 @@
+
+.beneficios .container-fluid .box{
+    display: flex;
+ justify-content: space-evenly;
+ margin: 1.5rem;
+
+}
+
+.beneficios .container-fluid .box p{
+    background-color: #eee;
+    padding: 1.5rem;
+}
+
+.box button{
+    height: 50px;
+    line-height: 1.1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+
+.col {
+    padding: 1rem; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.col span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1363A2;
+    margin: 1rem;
+}
+
+.col svg{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.beneficios h1{
+    color: #1363A2;
+    margin: 1rem;
+    padding: 1rem;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .col {
+    flex: 1 0 25%; 
+    max-width: 25%; 
+  }
+  
+.beneficios .container-fluid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}

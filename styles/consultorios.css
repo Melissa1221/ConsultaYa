@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+}
+.consultorios .container h1{
+    color: #1363A2;
+    margin: 1rem;
+    padding: 1rem;
+}
+.consultorios .container .row{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.consultorios .container .row .col h1{
+    color: #555;
+}
+.consultorios .container .row .col h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1363A2;
+    margin: 1rem;
+}
+
+.consultorios .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.consultorios .container .row .col{
+
+    flex: 1 0 25%; 
+    max-width: 25%; 
+}
+.consultorios .container .row .col img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.consultorios .container .row .col span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+    margin: 1rem;
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 768px) {
+    .consultorios .container .row .col {
+        flex: 0 0 50%; /* Ocupa 50% del ancho para tener 2 columnas */
+        max-width: 50%;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+    .consultorios .container .row .col {
+        flex: 0 0 100%; /* Ocupa 100% del ancho para tener 1 columna */
+        max-width: 100%;
+    }
+}

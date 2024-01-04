@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar .logo{
+    width: 180px;
+    height: 60px;
+    margin: 1rem;
+
+}
+
+
+.container-fluid {
+    width: 100%;
+}
+
+.navbar-collapse {
+    flex-grow: 1; 
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    width: 100%; 
+    justify-content: flex-end; 
+}
+
+
+
+.btn-custom-color {
+    background-color: #1363A2; /* Tu color deseado */
+    border-color: #1363A2; /* Asegúrate de que el borde del botón también coincida */
+    color: #fff; /* Color del texto, elige un color que tenga buen contraste con el fondo */
+}
+.btn-custom-color:hover {
+    background-color: #115492; /* Un tono ligeramente más oscuro para el efecto hover */
+    border-color: #115492;
+    color: #fff;
+}
+
+
+
+
+

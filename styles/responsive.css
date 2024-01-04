@@ -1,0 +1,94 @@
+@media(max-width:450px){
+ 
+    .inicio .container-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+   
+    .beneficios .container-fluid h1{
+        color: #1363A2;
+        font-size: 2rem;
+    }
+    .beneficios .container-fluid .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    .beneficios .container-fluid .box p{
+        padding: 1rem;
+    }
+    .beneficios .container-fluid .row{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem;
+        gap: .5rem;
+    }
+    .beneficios .container-fluid .row .col img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+    .beneficios .container-fluid .row .col span{
+        font-size: 1rem;
+        font-weight: 600;
+        color: #555;
+        margin: 1rem;
+    }
+    .consultorios .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .consultorios .container h1{
+        color: #1363A2;
+        font-size: 3rem;
+    }
+    .consultorios .container .row .col h1{
+        font-size: 2rem;
+    }
+
+    .comoFunciona .container-fluid .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;}
+
+        .comoFunciona .container-fluid .row .col{
+            flex: 1 0 50%; 
+            max-width: 90%; 
+        
+        }
+        .comoFunciona .container-fluid .row .col h3{
+            font-size: 2rem;
+            font-weight: 600;
+            color: #555;
+            margin: 1rem;
+        
+        }
+
+        footer .container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center; 
+            align-items: center;
+            gap: 2rem;
+            margin: 0;
+         }
+
+        footer .container{
+            height: 100%;
+        }
+        
+
+}
+a{
+    text-decoration: none;
+}

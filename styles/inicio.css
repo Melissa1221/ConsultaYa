@@ -1,0 +1,51 @@
+.inicio{
+    background-image: url(../images/fondo-pasillo-vacio.jpg);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.inicio .container-sm .bloque{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align:left;
+    width: 20rem;
+    justify-content: center;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bloque span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1363A2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.bloque p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+    margin: 1rem;
+}
+.bloque a button{
+    width: 100px;
+    line-height: 1.1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.inicio {
+    line-height: 1.5; /* Interlineado de 1.5 veces el tamaño de la fuente */
+}
+
