@@ -4,31 +4,57 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+    .inicio{
+        background-color: #fff;
+        background-image: none;
 
     }
+    .inicio .container-sm .bloque{
+        width: 90%;
+        height: 80%;
+        padding: 1rem;
+        margin-top: 150px;
+        
+    }
+    .inicio {
+        background-color: #fff;
+        background-image: none;
 
+    }
+    .inicio .container-sm img{
+        display: flex;
+        width: 100%;
+        top: 110px;
+        height: 100%;
+    }
+   
+    
+    .beneficios .container-fluid .box .box-text{
+        width: 100%;
+        height: 100%;
+    }
    
     .beneficios .container-fluid h1{
         color: #1363A2;
-        font-size: 2rem;
+        font-size: 1.5rem;
+
     }
     .beneficios .container-fluid .box{
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: start;
 
     }
     .beneficios .container-fluid .box p{
         padding: 1rem;
     }
-    .beneficios .container-fluid .row{
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        text-align: center;
-        padding: 1.5rem;
-        gap: .5rem;
+
+    .beneficios .container-fluid .row .col{
+        flex: 1 0 50%; 
+        max-width: 50%; 
     }
     .beneficios .container-fluid .row .col img{
         width: 50px;
@@ -44,7 +70,8 @@
     .consultorios .container{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: start;
+        
     }
     .consultorios .container h1{
         color: #1363A2;
@@ -54,15 +81,21 @@
         font-size: 2rem;
     }
 
+    .consultorios .container .row .col{
+        text-align: justify;
+    }
+
     .comoFunciona .container-fluid .row{
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;}
+    }
+
 
         .comoFunciona .container-fluid .row .col{
             flex: 1 0 50%; 
-            max-width: 90%; 
+            max-width: 100%; 
+            
         
         }
         .comoFunciona .container-fluid .row .col h3{
@@ -70,21 +103,40 @@
             font-weight: 600;
             color: #555;
             margin: 1rem;
-        
+        }
+        .comoFunciona .container-fluid .row .col p{
+            font-size: 1rem;
+            font-weight: 400;
+            color: #555;
+            
+            text-align: justify;
         }
 
         footer .container{
             display: flex;
             flex-direction: column;
-            text-align: center;
             justify-content: center; 
-            align-items: center;
+            text-align: center;
             gap: 2rem;
             margin: 0;
+            padding: .5rem;
          }
 
         footer .container{
             height: 100%;
+            width: 100%;
+            
+        }
+        .logo, .contacto, .siguenos, .recursos{
+            width: 100%;
+            align-items: stretch;
+            
+        }
+        footer .siguenos{
+            display: flex ;
+            flex-direction: column;
+            
+            align-items:start;
         }
         
 
